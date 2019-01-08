@@ -1,5 +1,5 @@
 #include"Vector.h"
-
+// ВИКОНАВ СТУДЕНТ іП-72 ЖУРБЕЛЮК ОЛЕКСАНДР
 Vector::Vector(Vector const &obj) : nums(obj.nums){
     for (int i = 0;i<nums.size();i++) {
         nums[i] = obj.nums[i];
