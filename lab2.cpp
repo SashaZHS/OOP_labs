@@ -1,5 +1,5 @@
 #include"Vector.h"
-
+// ВИКОНАВ СТУДЕНТ іП-72 ЖУРБЕЛЮК ОЛЕКСАНДР
 int main () {
     srand(time(NULL));
     setlocale(LC_ALL, "Russian");
