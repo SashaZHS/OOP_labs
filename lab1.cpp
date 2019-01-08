@@ -1,4 +1,4 @@
-// lab5.cpp : Defines the entry point for the console application.
+// lab1.cpp : Defines the entry point for the console application.
 //
 // ВИКОНАВ СТУДЕНТ іП-72 ЖУРБЕЛЮК ОЛЕКСАНДР
 #include "pch.h"
