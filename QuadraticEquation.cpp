@@ -1,3 +1,5 @@
+// –í–ò–ö–û–ù–ê–í –°–¢–£–î–ï–ù–¢ –Ü–ü-72 –ñ–£–†–ë–ï–õ–Æ–ö –û–õ–ï–ö–°–ê–ù–î–†
+
 #include"QuadraticEquation.h"
 
 void QuadraticEquation::calculateD() {
@@ -22,20 +24,20 @@ void QuadraticEquation::findSolution() {
 }
 
 void QuadraticEquation::print() {
-    cout<<"ƒ‡ÌÌÓÂ Û‡‚ÌÂÌËÂ ËÏÂÂÚ ÍÓÌË : "<<endl;
+    cout<<"–î–∞–Ω–Ω–æ–µ —É—Ä–∞–≤–Ω–µ–Ω–∏–µ –∏–º–µ–µ—Ç –∫–æ—Ä–Ω–∏ :"<<endl;
     for (int x : results) {
         cout<<x<<endl;
     }
 }
 
 void Error::print_err() {
-cout<<"Œ¯Ë·Í‡!"<<endl;
+cout<<"–û—à–∏–±–∫–∞!"<<endl;
 };
 
 void NotQuadratic::print_err() {
-    cout<<"ƒ‡ÌÌÓÂ Û‡‚ÌÂÌËÂ ÌÂ ˇ‚ÎˇÂÚÒˇ Í‚‡‰‡ÚÌ˚Ï!"<<endl;
+    cout<<"–î–∞–Ω–Ω–æ–µ —É—Ä–∞–≤–Ω–µ–Ω–∏–µ –Ω–µ —è–≤–ª—è–µ—Ç—Å—è –∫–≤–∞–¥—Ä–∞—Ç–Ω—ã–º!"<<endl;
 };
 
 void HaveNotSolution::print_err() {
-    cout<<"ƒËÒÍËÏËÌ‡ÌÚ ÏÂÌ¸¯Â ÌÛÎˇ!"<<endl;
+    cout<<"–î–∏—Å–∫—Ä–∏–º–∏–Ω–∞–Ω—Ç –º–µ–Ω—å—à–µ –Ω—É–ª—è!"<<endl;
 };
