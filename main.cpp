@@ -1,16 +1,17 @@
-#include"QuadraticEquation.h"
+// –í–ò–ö–û–ù–ê–í –°–¢–£–î–ï–ù–¢ –Ü–ü-72 –ñ–£–†–ë–ï–õ–Æ–ö –û–õ–ï–ö–°–ê–ù–î–†
 
+#include"QuadraticEquation.h"
 int main() {
     setlocale(LC_ALL, "Russian");
     setlocale(LC_NUMERIC,"C");
     int a,b,c;
-    cout<<" ‚‡‰‡ÚÌÓÂ Û‡‚ÌÂÌËÂ ËÏÂÂÚ ‚Ë‰"<<endl;
+    cout<<"–ö–≤–∞–¥—Ä–∞—Ç–Ω–æ–µ —É—Ä–∞–≤–Ω–µ–Ω–∏–µ –∏–º–µ–µ—Ç –≤–∏–¥:"<<endl;
     cout<< "ax^2 + bx + c"<<endl;
-    cout<<"¬‚Â‰ËÚÂ ˆÂÎÓ˜ËÒÎÂÌÌÓÂ a"<<endl;
+    cout<<"–í–≤–µ–¥–∏—Ç–µ —Ü–µ–ª–æ—á–∏—Å–ª–µ–Ω–Ω–æ–µ a:"<<endl;
     cin>>a;
-    cout<<"¬‚Â‰ËÚÂ ˆÂÎÓ˜ËÒÎÂÌÌÓÂ b"<<endl;
+    cout<<"–í–≤–µ–¥–∏—Ç–µ —Ü–µ–ª–æ—á–∏—Å–ª–µ–Ω–Ω–æ–µ b:"<<endl;
     cin>>b;
-    cout<<"¬‚Â‰ËÚÂ ˆÂÎÓ˜ËÒÎÂÌÌÓÂ c"<<endl;
+    cout<<"–í–≤–µ–¥–∏—Ç–µ —Ü–µ–ª–æ—á–∏—Å–ª–µ–Ω–Ω–æ–µ c:"<<endl;
     cin>>c;
     try {
     QuadraticEquation eq(a,b,c);
