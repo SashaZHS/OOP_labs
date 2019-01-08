@@ -1,17 +1,16 @@
 #include"Single_variable_function.h"
+// –í–ò–ö–û–ù–ê–í –°–¢–£–î–ï–ù–¢ —ñ–ü-72 –ñ–£–†–ë–ï–õ–Æ–ö –û–õ–ï–ö–°–ê–ù–î–†
 
 void Sin::calculate() {
-	cout << "«Ì‡˜ÂÌËÂ ÒËÌÛÒ‡ :" << endl;
+	cout << "–ó–Ω–∞—á–µ–Ω–∏–µ —Å–∏–Ω—É—Å–∞ :" << endl;
 	cout << sin(data) << endl;
-	cout << "≈„Ó ÔÓËÁ‚Ó‰ÌÓÈ :" << endl;
+	cout << "–ï–≥–æ –ø—Ä–æ–∏–∑–≤–æ–¥–Ω–æ–π :" << endl;
 	cout << cos(data) << endl;
 };
 
 void Cos::calculate() {
-	cout << "«Ì‡˜ÂÌËÂ ÍÓÒËÌÛÒ‡ :" << endl;
+	cout << "–ó–Ω–∞—á–µ–Ω–∏–µ –∫–æ—Å–∏–Ω—É—Å–∞ :" << endl;
 	cout << cos(data) << endl;
-	cout << "≈„Ó ÔÓËÁ‚Ó‰ÌÓÈ :" << endl;
-	cout << "≈„Ó ÔÓËÁ‚Ó‰ÌÓÈ :" << endl;
-	cout << "≈„Ó ÔÓËÁ‚Ó‰ÌÓÈ :" << endl;
+	cout << "–ï–≥–æ –ø—Ä–æ–∏–∑–≤–æ–¥–Ω–æ–π :" << endl;
 	cout << (-1)*sin(data) << endl;
 };
